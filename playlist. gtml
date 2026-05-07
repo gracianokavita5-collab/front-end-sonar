@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sonar - Playlists</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Suas Playlists Inteligentes</h1>
+    <p>Listas criadas com base no seu estado emocional e objetivo</p>
+    <ul id="playlistList">
+      <li>Playlist de Foco Profundo</li>
+      <li>Playlist de Motivação</li>
+      <li>Playlist de Criatividade</li>
+      <li>Playlist de Recuperação Mental</li>
+    </ul>
+    <button onclick="window.location.href='index.html'">Sair</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
